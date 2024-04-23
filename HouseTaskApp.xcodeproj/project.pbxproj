@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5DA424F2BD7F6CD008224F5 /* DoneTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA424E2BD7F6CD008224F5 /* DoneTasksView.swift */; };
 		A5E5C8712BD7EA08003D370B /* HouseTaskAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C8702BD7EA08003D370B /* HouseTaskAppApp.swift */; };
-		A5E5C8732BD7EA08003D370B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C8722BD7EA08003D370B /* ContentView.swift */; };
 		A5E5C8752BD7EA0A003D370B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E5C8742BD7EA0A003D370B /* Assets.xcassets */; };
 		A5E5C8782BD7EA0A003D370B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E5C8772BD7EA0A003D370B /* Preview Assets.xcassets */; };
 		A5E5C8822BD7EA0A003D370B /* HouseTaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C8812BD7EA0A003D370B /* HouseTaskAppTests.swift */; };
 		A5E5C88C2BD7EA0A003D370B /* HouseTaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C88B2BD7EA0A003D370B /* HouseTaskAppUITests.swift */; };
 		A5E5C88E2BD7EA0A003D370B /* HouseTaskAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C88D2BD7EA0A003D370B /* HouseTaskAppUITestsLaunchTests.swift */; };
+		A5E5C89B2BD7EA2A003D370B /* HouseTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C89A2BD7EA2A003D370B /* HouseTaskModel.swift */; };
+		A5E5C89D2BD7EA3A003D370B /* HouseTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C89C2BD7EA3A003D370B /* HouseTaskViewModel.swift */; };
+		A5E5C8A12BD7EAAC003D370B /* HouseTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E5C8A02BD7EAAC003D370B /* HouseTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5DA424E2BD7F6CD008224F5 /* DoneTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTasksView.swift; sourceTree = "<group>"; };
 		A5E5C86D2BD7EA08003D370B /* HouseTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E5C8702BD7EA08003D370B /* HouseTaskAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTaskAppApp.swift; sourceTree = "<group>"; };
-		A5E5C8722BD7EA08003D370B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5E5C8742BD7EA0A003D370B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E5C8772BD7EA0A003D370B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A5E5C87D2BD7EA0A003D370B /* HouseTaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseTaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		A5E5C8872BD7EA0A003D370B /* HouseTaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseTaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E5C88B2BD7EA0A003D370B /* HouseTaskAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTaskAppUITests.swift; sourceTree = "<group>"; };
 		A5E5C88D2BD7EA0A003D370B /* HouseTaskAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTaskAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5E5C89A2BD7EA2A003D370B /* HouseTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTaskModel.swift; sourceTree = "<group>"; };
+		A5E5C89C2BD7EA3A003D370B /* HouseTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTaskViewModel.swift; sourceTree = "<group>"; };
+		A5E5C8A02BD7EAAC003D370B /* HouseTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				A5E5C8702BD7EA08003D370B /* HouseTaskAppApp.swift */,
-				A5E5C8722BD7EA08003D370B /* ContentView.swift */,
+				A5E5C89C2BD7EA3A003D370B /* HouseTaskViewModel.swift */,
+				A5E5C89A2BD7EA2A003D370B /* HouseTaskModel.swift */,
+				A5DA424E2BD7F6CD008224F5 /* DoneTasksView.swift */,
+				A5E5C8A02BD7EAAC003D370B /* HouseTaskView.swift */,
 				A5E5C8742BD7EA0A003D370B /* Assets.xcassets */,
 				A5E5C8762BD7EA0A003D370B /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E5C8732BD7EA08003D370B /* ContentView.swift in Sources */,
+				A5E5C89B2BD7EA2A003D370B /* HouseTaskModel.swift in Sources */,
+				A5E5C8A12BD7EAAC003D370B /* HouseTaskView.swift in Sources */,
+				A5E5C89D2BD7EA3A003D370B /* HouseTaskViewModel.swift in Sources */,
 				A5E5C8712BD7EA08003D370B /* HouseTaskAppApp.swift in Sources */,
+				A5DA424F2BD7F6CD008224F5 /* DoneTasksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
